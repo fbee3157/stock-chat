@@ -1,5 +1,8 @@
 # stock.chat - 全球股市行情
 
+<img width="857" height="717" alt="image" src="https://github.com/user-attachments/assets/f4b7a2d4-cfa9-4d3d-8413-2e5717bbf8bc" />
+
+
 ## 🚀 如何使用
 ```bash
 git clone https://github.com/fbee3157/stock-chat.git
