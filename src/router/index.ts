@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '@/views/HomeView.vue';
-import MarketView from '@/views/MarketView.vue';
-import SectorView from '@/views/SectorView.vue';
-import FundsView from '@/views/FundsView.vue';
+import HomeView from '../views/HomeView.vue';
+import MarketView from '../views/MarketView.vue';
+import SectorView from '../views/SectorView.vue';
+import FundsView from '../views/FundsView.vue';
 
 const routes = [
   { path: '/', component: HomeView, name: 'home' },
