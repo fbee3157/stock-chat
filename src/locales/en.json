@@ -1,0 +1,23 @@
+{
+  "news": {
+    "title": "Market News",
+    "lastUpdated": "Last Updated",
+    "noData": "No news available",
+    "readMore": "Read More"
+  },
+  "sector": {
+    "searchPlaceholder": "Search sectors...",
+    "sortByChange": "Sort by Change",
+    "sortByVolume": "Sort by Volume"
+  },
+  "funds": {
+    "title": "Fund Flow"
+  },
+  "nav": {
+    "home": "Home",
+    "market": "Market",
+    "sector": "Sectors",
+    "funds": "Funds",
+    "news": "News"
+  }
+}

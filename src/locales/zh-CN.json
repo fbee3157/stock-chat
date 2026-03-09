@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "首页",
+    "market": "市场快讯",
+    "sector": "板块概念",
+    "funds": "资金流向"
+  },
+  "sector": {
+    "searchPlaceholder": "搜索板块...",
+    "sortByChange": "按涨幅排序",
+    "sortByVolume": "按成交量排序"
+  },
+  "funds": {
+    "title": "行业资金流向"
+  }
+}

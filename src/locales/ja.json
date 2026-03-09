@@ -1,0 +1,23 @@
+{
+  "news": {
+    "title": "市場ニュース",
+    "lastUpdated": "最終更新",
+    "noData": "ニュースがありません",
+    "readMore": "続きを読む"
+  },
+  "sector": {
+    "searchPlaceholder": "セクターを検索...",
+    "sortByChange": "変動率で並べ替え",
+    "sortByVolume": "取引量で並べ替え"
+  },
+  "funds": {
+    "title": "資金流れ"
+  },
+  "nav": {
+    "home": "ホーム",
+    "market": "市場",
+    "sector": "セクター",
+    "funds": "資金",
+    "news": "ニュース"
+  }
+}

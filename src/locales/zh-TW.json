@@ -1,0 +1,23 @@
+{
+  "news": {
+    "title": "市場新聞",
+    "lastUpdated": "最後更新時間",
+    "noData": "沒有可用的新聞",
+    "readMore": "閱讀更多"
+  },
+  "sector": {
+    "searchPlaceholder": "搜尋板塊...",
+    "sortByChange": "按漲跌幅排序",
+    "sortByVolume": "按成交量排序"
+  },
+  "funds": {
+    "title": "資金流向"
+  },
+  "nav": {
+    "home": "首頁",
+    "market": "市場",
+    "sector": "板塊",
+    "funds": "資金",
+    "news": "新聞"
+  }
+}

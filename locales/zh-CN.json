@@ -1,0 +1,10 @@
+// locales/zh-CN.json
+{
+  "nav": {
+    "market": "市场快讯",
+    "sector": "板块概念",
+    "funds": "资金流向",
+    "dragon": "龙虎榜"
+  },
+  "aiBtn": "✨ AI 热点分析"
+}
