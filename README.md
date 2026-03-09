@@ -1,5 +1,12 @@
 # stock.chat - 全球股市行情
 
+## 🚀 如何使用
+```bash
+git clone https://github.com/fbee3157/stock-chat.git
+cd stock.chat
+npm install
+npm run dev
+```
 
 ## 功能特性
 
@@ -151,4 +158,3 @@ stock.chat/
 ## 许可证
 
 MIT License
-# stock-chat
