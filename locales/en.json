@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "market": "Market News",
+    "sector": "Sectors",
+    "funds": "Funds Flow",
+    "dragon": "Top List"
+  },
+  "aiBtn": "✨ AI Hot Analysis",
+  "index": {
+    "value": "Index Value"
+  },
+  "news": {
+    "related": "Related News"
+  }
+}

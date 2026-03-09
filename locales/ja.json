@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "market": "市場ニュース",
+    "sector": "セクター",
+    "funds": "資金フロー",
+    "dragon": "トップリスト"
+  },
+  "aiBtn": "✨ AI ホット分析",
+  "index": {
+    "value": "指数値"
+  },
+  "news": {
+    "related": "関連ニュース"
+  }
+}

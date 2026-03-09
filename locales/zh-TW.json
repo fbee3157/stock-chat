@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "首頁",
+    "market": "市場快訊",
+    "sector": "板塊概念",
+    "funds": "資金流向",
+    "dragon": "龍虎榜"
+  },
+  "aiBtn": "✨ AI 熱點分析",
+  "index": {
+    "value": "指數值"
+  },
+  "news": {
+    "related": "相關新聞"
+  }
+}

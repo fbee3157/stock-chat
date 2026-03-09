@@ -57,3 +57,13 @@ export const fetchSectorData = async (): Promise<any[]> => {
     volume: parseFloat(item['Volume'])
   }));
 };
+
+// 资金流数据（模拟，实际可对接专门的资金流API）
+export const fetchFundsFlow = async (): Promise<{ symbol: string; flow: number }[]> => {
+  // 模拟资金流数据，实际可对接API
+  return [
+    { symbol: 'AAPL', flow: 1500000000 },
+    { symbol: 'GOOGL', flow: 1200000000 },
+    { symbol: 'MSFT', flow: 1000000000 },
+  ];
+};

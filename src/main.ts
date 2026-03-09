@@ -4,16 +4,20 @@ import { createI18n } from 'vue-i18n';
 import App from './App.vue';
 import router from './router';
 import { APP_CONFIG } from './config';
+import en from '../locales/en.json';
+import zhCN from '../locales/zh-CN.json';
+import zhTW from '../locales/zh-TW.json';
+import ja from '../locales/ja.json';
 
 // 多语言
 const i18n = createI18n({
   locale: APP_CONFIG.i18n.defaultLocale,
   fallbackLocale: APP_CONFIG.i18n.fallbackLocale,
   messages: {
-    en: require('../locales/en.json'),
-    'zh-CN': require('../locales/zh-CN.json'),
-    'zh-TW': require('../locales/zh-TW.json'),
-    ja: require('../locales/ja.json'),
+    en,
+    'zh-CN': zhCN,
+    'zh-TW': zhTW,
+    ja,
   },
 });
 

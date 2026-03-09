@@ -1,6 +1,7 @@
 <!-- src/views/HomeView.vue -->
 <template>
   <div class="home-view">
+    <h1>Stock.Chat - 全球股市行情</h1>
     <div ref="globeContainer" class="globe-container"></div>
     <div v-if="selectedHotspot" class="hotspot-popup">
       <h3>{{ selectedHotspot.name }}</h3>
@@ -17,9 +18,10 @@
 <script setup lang="ts">
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { onMounted, onUnmounted, ref } from 'vue';
+import { onMounted, onUnmounted, ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import { useMarketStore } from '@/stores/marketStore';
+import { useWebSocket } from '@/composables/useWebSocket';
 import { APP_CONFIG } from '@/config';
 
 const globeContainer = ref<HTMLDivElement | null>(null);
@@ -34,6 +36,9 @@ let animationId: number | null = null;
 const store = useMarketStore();
 const router = useRouter();
 const selectedHotspot = ref<{ name: string; price: number; change: number } | null>(null);
+
+// 使用WebSocket实时数据
+const { isConnected, realTimeData } = useWebSocket();
 
 // 初始化地球
 const initGlobe = () => {
@@ -167,6 +172,14 @@ const closePopup = () => {
 onMounted(() => {
   initGlobe();
   globeContainer.value?.addEventListener('pointerdown', handlePointerDown);
+  
+  // 监听实时数据更新
+  watch(realTimeData, (newData) => {
+    if (newData.length > 0) {
+      store.updateRealTimeData(newData);
+    }
+  }, { deep: true });
+  
   // 监听数据更新，刷新热点颜色
   store.$subscribe(() => {
     createHotspots();
