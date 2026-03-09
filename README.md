@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# stock-chat
-一个基于Vue 3的全球股市行情应用，提供实时市场数据、资金流向、板块分析等功能。
-=======
 # stock.chat - 全球股市行情
 
 
@@ -155,4 +151,4 @@ stock.chat/
 ## 许可证
 
 MIT License
->>>>>>> 003c369 (feat: initial stock.chat with OpenClaw & multi-cloud support)
+# stock-chat
